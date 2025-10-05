@@ -6,40 +6,40 @@ const Experience = () => {
   
   const experiences = [
     {
-      company: 'Tech Company',
-      position: 'Senior Frontend Engineer',
-      period: '2022 - Present',
+      company: 'Dicoding Indonesia',
+      position: 'External Code Reviewer',
+      period: 'Mar 2025 - Present',
       responsibilities: [
-        'Build and maintain critical components used to construct the company\'s frontend, across the whole product',
-        'Work closely with cross-functional teams, including developers, designers, and product managers',
-        'Implement and advocate for best practices in web accessibility',
-        'Contribute to the development of internal tools and documentation'
+        'Review and provide feedback on code submissions from students',
+        'Suggest improvements and best practices for coding standards',
+        'Collaborate with other reviewers to ensure consistency',
+        'Help maintain the quality of coding projects'
       ],
-      technologies: ['React', 'TypeScript', 'Next.js', 'GraphQL', 'Storybook']
+      technologies: ['Node.js', 'Code Review', 'Postman', 'Feedback']
     },
     {
-      company: 'Digital Agency',
-      position: 'Frontend Developer',
-      period: '2020 - 2022',
+      company: 'Dicoding Academy',
+      position: 'Certified Independent Study Student',
+      period: 'Feb 2024 - Jun 2024',
       responsibilities: [
-        'Developed and shipped highly interactive web applications for clients',
-        'Built reusable code and libraries for future use',
-        'Collaborated with designers to implement pixel-perfect UI components',
-        'Optimized applications for maximum speed and scalability'
+        'Studied and completed various coding modules and projects',
+        'Applied learned skills in real-world scenarios',
+        'Collaborated with peers and mentors for knowledge sharing',
+        'Achieved certification in multiple programming disciplines'
       ],
-      technologies: ['JavaScript', 'React', 'SCSS', 'WordPress', 'Node.js']
+      technologies: ['JavaScript', 'Node.js', 'CSS', 'HTML', 'Express.js', 'PostgreSQL', 'Postman']
     },
     {
-      company: 'Startup Inc',
-      position: 'Junior Developer',
-      period: '2019 - 2020',
+      company: 'Telecommunication Laboratory, Unila',
+      position: 'Backend Developer',
+      period: 'Feb 2024 - Jan 2025',
       responsibilities: [
-        'Assisted in the development of client-facing web applications',
-        'Wrote modern, performant, maintainable code for diverse projects',
-        'Participated in code reviews and learned from senior developers',
-        'Contributed to team discussions and sprint planning'
+        'Developed backend project for competition Lomba Riset Sawit 2024 using Node.js and Express',
+        'Developed backend project for PPK Ormawa KOPMA Unila using Node.js and Express',
+        'Participated in collaboration meetings and contributed to project planning',
+        'Providing lessons and exercises during the practicum period for lab practitioners',
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap']
+      technologies: ['Network', 'Node.js', 'Express.js', 'PostgreSQL', 'Github']
     }
   ];
 
@@ -48,7 +48,7 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-slate-100 mb-12 flex items-center">
           <span className="text-cyan-400 font-mono mr-2">02.</span>
-          Where I've Worked
+          Experience
           <div className="h-px bg-slate-700 flex-1 ml-4"></div>
         </h2>
         

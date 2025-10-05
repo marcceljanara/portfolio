@@ -24,7 +24,7 @@ const About = () => {
                 using Node.js and Express.js, designing scalable APIs and robust data architectures that power seamless, real-world experiences.
               </p>
               <p>
-                Shortly after graduating from university, I continued developing my research project
+                Shortly after graduating from University of Lampung, I continued developing my research project
                 on IoT-based rover systems for smart agriculture, focusing on real-time monitoring,
                 two-way communication, and AI-driven data processing. This experience deepened my passion for 
                 building intelligent backend architectures and scalable connected systems.
