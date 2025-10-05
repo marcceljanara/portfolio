@@ -50,8 +50,9 @@ const About = () => {
             <div className="relative z-10 rounded overflow-hidden">
               <div className="aspect-square bg-slate-700 flex items-center justify-center text-slate-500">
                 <div className="text-center">
-                  <div className="text-6xl mb-2">👨‍💻</div>
-                  <p className="text-sm">Your Photo Here</p>
+                  <p className="text-sm">
+                    <img src="photo_profile.jpg" alt="" srcset="" />
+                  </p>
                 </div>
               </div>
             </div>
