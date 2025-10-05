@@ -10,7 +10,7 @@ const Contact = () => {
           Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
         <a 
-          href="mailto:hello@example.com" 
+          href="mailto:inengahmarcceljbc@gmail.com" 
           className="inline-block px-8 py-4 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400/10 transition-all font-mono"
         >
           Say Hello

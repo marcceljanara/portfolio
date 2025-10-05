@@ -4,47 +4,40 @@ import { ExternalLink, Folder, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with user authentication, product management, shopping cart, and payment integration. Built with modern web technologies for optimal performance.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
-      github: '#',
+      title: 'Rover Drone API',
+      description: 'Rover-Drone API is a backend system designed to power an IoT-based rover-drone rental and management platform. It supports subscription-based device rentals, real-time MQTT control, logistics integration, and automated reporting, making it suitable for smart agriculture applications such as oil palm plantation monitoring.',
+      technologies: ['PostgreSQL', 'Express.js', 'Node.js', 'Redis', 'RabbitMQ', 'MQTT', 'Docker', 'Jest'],
+      github: 'https://github.com/marcceljanara/rover-drone-api-v2',
       external: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Designed for modern teams.',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'WebSocket'],
-      github: '#',
+      title: 'Rover Drone Web App',
+      description: 'Developed using React 18 with MUI and Bootstrap for responsive, modern UI. Implemented smooth animations with Framer Motion and real-time data visualization with ApexCharts. Integrated secure authentication using JWT, dynamic dashboards, and detailed user/admin interfaces for rental, payment, and device management.',
+      technologies: ['React.js', 'Javascript', 'HTML', 'CSS'],
+      github: 'https://github.com/marcceljanara/rover-drone-webapp-v2',
       external: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'An interactive weather dashboard that displays current weather, forecasts, and historical data using various weather APIs. Features beautiful visualizations.',
-      technologies: ['React', 'D3.js', 'Weather API', 'Tailwind', 'Chart.js'],
-      github: '#',
+      title: 'Rover Drone IoT',
+      description: 'ESP32-based IoT system for rover and drone control, featuring real-time telemetry via MQTT. Designed for smart agriculture applications, it enables remote operation and monitoring of devices through a web app interface.',
+      technologies: ['C', 'ESP32', 'Arduino', 'MQTT'],
+      github: 'https://github.com/marcceljanara/rover-drone-IoT',
       external: '#'
     },
     {
-      title: 'Portfolio CMS',
-      description: 'A headless CMS for managing portfolio content with a clean admin interface. Built to help creatives showcase their work effortlessly.',
-      technologies: ['Next.js', 'Sanity', 'GraphQL', 'Tailwind CSS'],
-      github: '#',
+      title: 'Healthcare Knowledge API',
+      description: 'A comprehensive backend API for a healthcare knowledge platform, built with Node.js and Express. It features RESTful endpoints for managing articles, user authentication, and role-based access control, ensuring secure and efficient data handling.',
+      technologies: ['Express.js', 'Node.js', 'PostgreSQL'],
+      github: 'https://github.com/marcceljanara/Healthcare-Knowledge-API',
       external: '#'
     },
     {
-      title: 'AI Chat Application',
-      description: 'A real-time chat application with AI-powered responses and natural language processing. Features include message history and user authentication.',
-      technologies: ['React', 'Express', 'OpenAI API', 'Socket.io', 'MongoDB'],
-      github: '#',
+      title: 'Microclimate Firmware',
+      description: 'Firmware for ESP32-based microclimate monitoring devices, utilizing various sensors to collect environmental data. It supports real-time data transmission via MQTT and is designed for integration with IoT platforms for mangrove monitoring applications.',
+      technologies: ['Raspberry Pi', 'ESP32', 'C', 'Arduino', 'MQTT', 'Python'],
+      github: 'https://github.com/marcceljanara/Microclimate',
       external: '#'
     },
-    {
-      title: 'Music Player App',
-      description: 'A Spotify-inspired music player with playlist management, audio visualization, and integration with music streaming APIs.',
-      technologies: ['React', 'Spotify API', 'Web Audio API', 'Redux'],
-      github: '#',
-      external: '#'
-    }
   ];
 
   return (
