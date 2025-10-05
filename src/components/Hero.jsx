@@ -5,15 +5,15 @@ const Hero = () => {
       <div className="max-w-4xl">
         <p className="text-cyan-400 mb-4 text-lg font-mono">Hi, my name is</p>
         <h1 className="text-6xl md:text-7xl font-bold text-slate-100 mb-4">
-          John Doe
+          I Nengah Marccel Janara Brata Cipta
         </h1>
         <h2 className="text-4xl md:text-5xl font-bold text-slate-400 mb-6">
           I build things for the web.
         </h2>
         <p className="text-slate-400 text-lg max-w-2xl mb-12 leading-relaxed">
-          I'm a software engineer specializing in building exceptional digital experiences. 
-          Currently, I'm focused on creating accessible, human-centered products with a passion 
-          for clean code and elegant design solutions.
+            I’m a software engineer passionate about building intelligent, scalable systems that blend technology
+             and design seamlessly. Currently, I focus on developing IoT-driven and AI-powered solutions with clean 
+             architecture and purposeful user experiences.
         </p>
         <a 
           href="#projects" 

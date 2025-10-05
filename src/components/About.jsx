@@ -1,9 +1,9 @@
 // About Component
 const About = () => {
   const skills = [
-    'JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js',
-    'Node.js', 'Express', 'HTML & CSS', 'Tailwind CSS',
-    'Git', 'REST APIs', 'GraphQL', 'MongoDB'
+    'JavaScript (ES6+)', 'TypeScript', 'React', 'Redis',
+    'Node.js', 'Express', 'HTML & CSS', 'RabbitMQ',
+    'Git', 'GitHub Action', 'REST APIs', 'PostgreSQL', 'Docker'
   ];
 
   return (
@@ -19,19 +19,19 @@ const About = () => {
           <div className="md:col-span-2">
             <div className="text-slate-400 space-y-4 leading-relaxed">
               <p>
-                Hello! I'm John, a software engineer based in San Francisco, CA. I enjoy creating 
-                things that live on the internet, whether that be websites, applications, or anything 
-                in between. My goal is to always build products that provide pixel-perfect, performant 
-                experiences.
+                Hello! I’m Marccel, a software engineer based in Indonesia who loves building smart,
+                connected systems — from IoT platforms to modern web applications. I specialize in backend development 
+                using Node.js and Express.js, designing scalable APIs and robust data architectures that power seamless, real-world experiences.
               </p>
               <p>
-                Shortly after graduating from University of California, I joined the engineering team 
-                at a tech startup where I work on a wide variety of interesting and meaningful projects 
-                on a daily basis.
+                Shortly after graduating from university, I continued developing my research project
+                on IoT-based rover systems for smart agriculture, focusing on real-time monitoring,
+                two-way communication, and AI-driven data processing. This experience deepened my passion for 
+                building intelligent backend architectures and scalable connected systems.
               </p>
               <p>
-                I also recently launched a course that covers everything you need to build a web app 
-                with the Spotify API using Node & React.
+                I’m also open to collaborations and new opportunities to build innovative,
+                impactful projects that combine technology, intelligence, and great design.
               </p>
               <p>Here are a few technologies I've been working with recently:</p>
             </div>

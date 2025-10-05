@@ -18,7 +18,7 @@ const Header = () => {
     }`}>
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
-          JD
+          Marccel
         </a>
         <div className="flex gap-8">
           <a href="#about" className="text-slate-300 hover:text-cyan-400 transition-colors text-sm font-medium">
