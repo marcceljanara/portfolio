@@ -10,33 +10,33 @@ const Experience = () => {
       position: 'External Code Reviewer',
       period: 'Mar 2025 - Present',
       responsibilities: [
-        'Review and provide feedback on code submissions from students',
-        'Suggest improvements and best practices for coding standards',
-        'Collaborate with other reviewers to ensure consistency',
-        'Help maintain the quality of coding projects'
+        'Conducted rigorous code reviews for 50+ student submissions monthly in the Backend Developer Expert path, ensuring strict adherence to Clean Code, SOLID Principles, and OWASP security standards.',
+        'Mentored students to refactor inefficient backend logic, resulting in optimized API response times and better error handling implementation in Node.js environments.',
+        'Debugged complex asynchronous issues in student projects, providing actionable feedback that improved their graduation rate in the Backend Developer Expert path.',
+        'Help maintain the quality of coding projects.'
       ],
-      technologies: ['Node.js', 'Code Review', 'Postman', 'Feedback']
+      technologies: ['Node.js', 'Express.js', 'Code Review', 'Postman', 'Feedback']
     },
     {
       company: 'Dicoding Academy',
       position: 'Certified Independent Study Student',
       period: 'Feb 2024 - Jun 2024',
       responsibilities: [
-        'Studied and completed various coding modules and projects',
-        'Applied learned skills in real-world scenarios',
-        'Collaborated with peers and mentors for knowledge sharing',
-        'Achieved certification in multiple programming disciplines'
+        'Spearheaded the backend development of a medical information platform, architecting a RESTful API using Node.js and Express.js to handle complex disease-medication data relationships in PostgreSQL.',
+        'Implemented JWT (JSON Web Token) for secure Role-Based Access Control (RBAC) and deployed the production build to a VPS with custom DNS configuration, ensuring data integrity and accessibility.',
+        'Integrated GitHub Actions for CI/CD pipelines and enforced code reliability through comprehensive unit testing with Jest and API testing via Postman.',
+        'Selected as a Top-Tier Graduate (Frontend & Backend Expert Path) with 940 learning hours, completing the program with a score 92.89/100.'
       ],
       technologies: ['JavaScript', 'Node.js', 'CSS', 'HTML', 'Express.js', 'PostgreSQL', 'Postman']
     },
     {
-      company: 'Telecommunication Laboratory, Unila',
-      position: 'Backend Developer',
+      company: 'Universitas Lampung',
+      position: 'Research Engineer & Laboratory Assistant ',
       period: 'Feb 2024 - Jan 2025',
       responsibilities: [
-        'Developed backend project for competition Lomba Riset Sawit 2024 using Node.js and Express',
-        'Developed backend project for PPK Ormawa KOPMA Unila using Node.js and Express',
-        'Participated in collaboration meetings and contributed to project planning',
+        'Spearheaded the R&D of "Rover-Drone," a patented autonomous system for smart agriculture. Architected a scalable backend using Node.js Microservices, PostgreSQL, and RabbitMQ to handle high-concurrency data processing.',
+        'Engineered a real-time bi-directional communication protocol using MQTT and Redis, achieving sub-second latency for remote device control and sensor monitoring.',
+        'Secured research funding from BPDPKS (Palm Oil Research Competition) and led a multidisciplinary team to achieve Technology Readiness Level (TKT) 6, successfully deploying the prototype in real-world plantation environments.',
         'Providing lessons and exercises during the practicum period for lab practitioners',
       ],
       technologies: ['Network', 'Node.js', 'Express.js', 'PostgreSQL', 'Github']

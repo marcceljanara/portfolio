@@ -8,14 +8,14 @@ const Projects = () => {
       description: 'Rover-Drone API is a backend system designed to power an IoT-based rover-drone rental and management platform. It supports subscription-based device rentals, real-time MQTT control, logistics integration, and automated reporting, making it suitable for smart agriculture applications such as oil palm plantation monitoring.',
       technologies: ['PostgreSQL', 'Express.js', 'Node.js', 'Redis', 'RabbitMQ', 'MQTT', 'Docker', 'Jest'],
       github: 'https://github.com/marcceljanara/rover-drone-api-v2',
-      external: '#'
+      external: 'https://api.xsmartagrichain.site/v1/api-docs'
     },
     {
       title: 'Rover Drone Web App',
       description: 'Developed using React 18 with MUI and Bootstrap for responsive, modern UI. Implemented smooth animations with Framer Motion and real-time data visualization with ApexCharts. Integrated secure authentication using JWT, dynamic dashboards, and detailed user/admin interfaces for rental, payment, and device management.',
       technologies: ['React.js', 'Javascript', 'HTML', 'CSS'],
       github: 'https://github.com/marcceljanara/rover-drone-webapp-v2',
-      external: '#'
+      external: 'https://www.xsmartagrichain.site/'
     },
     {
       title: 'Rover Drone IoT',

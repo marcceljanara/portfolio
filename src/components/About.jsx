@@ -17,24 +17,25 @@ const About = () => {
         
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2">
-            <div className="text-slate-400 space-y-4 leading-relaxed">
-              <p>
-                Hello! I’m Marccel, a software engineer based in Indonesia who loves building smart,
-                connected systems — from IoT platforms to modern web applications. I specialize in backend development 
-                using Node.js and Express.js, designing scalable APIs and robust data architectures that power seamless, real-world experiences.
-              </p>
-              <p>
-                Shortly after graduating from University of Lampung, I continued developing my research project
-                on IoT-based rover systems for smart agriculture, focusing on real-time monitoring,
-                two-way communication, and AI-driven data processing. This experience deepened my passion for 
-                building intelligent backend architectures and scalable connected systems.
-              </p>
-              <p>
-                I’m also open to collaborations and new opportunities to build innovative,
-                impactful projects that combine technology, intelligence, and great design.
-              </p>
-              <p>Here are a few technologies I've been working with recently:</p>
-            </div>
+          <div className="text-slate-400 space-y-4 leading-relaxed">
+            <p>
+              Hello! I’m Marccel, a <strong>Backend Software Engineer</strong> and <strong>IoT Specialist</strong> based in Indonesia. 
+              I believe reliable backend code should be "boring" it just works, scales, and stays secure. 
+              Currently, I serve as an <strong>External Code Reviewer</strong> at Dicoding, where I audit code quality, 
+              security (OWASP), and architectural standards for hundreds of student projects monthly.
+            </p>
+            <p>
+              My engineering journey is defined by bridging software with the real world. I spearheaded the R&D of a 
+              <strong> patented autonomous Rover Drone</strong> system for smart agriculture, architecting a high-concurrency 
+              microservices backend using <strong>Node.js, RabbitMQ, and AWS</strong>. This experience honed my ability to build 
+              resilient distributed systems that perform under pressure.
+            </p>
+            <p>
+              I thrive on solving complex architectural challenges from optimizing database queries to deploying secure cloud infrastructure. 
+              I’m always open to opportunities where I can engineer production-grade solutions that deliver tangible impact.
+            </p>
+            <p>Here are a few technologies I've been working with recently:</p>
+          </div>
             
             <div className="grid grid-cols-2 gap-2 mt-6">
               {skills.map((skill, index) => (
