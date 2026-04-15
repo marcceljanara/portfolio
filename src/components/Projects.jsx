@@ -4,6 +4,13 @@ import { ExternalLink, Folder, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'Tenaga Rakyat API - On Progress',
+      description: 'The Tenaga Rakyat API is a RESTful-based backend service that supports key features such as user registration and authentication, job management, application processing, TBD (payment escrow system, user-to-user messaging, two-way reviews, notifications, and administrative functions). Each endpoint is designed following the best REST standards, using compliant HTTP methods, JWT-based authentication, and JSON data format for efficient and secure communication between the frontend and backend.',
+      technologies: ['Typescript', 'Nest.js', 'Prisma', 'PostgreSQL', 'Jest'],
+      github: 'https://github.com/marcceljanara/tenaga-rakyat-api',
+      external: '#',
+    },
+    {
       title: 'Rover Drone API',
       description: 'Rover-Drone API is a backend system designed to power an IoT-based rover-drone rental and management platform. It supports subscription-based device rentals, real-time MQTT control, logistics integration, and automated reporting, making it suitable for smart agriculture applications such as oil palm plantation monitoring.',
       technologies: ['PostgreSQL', 'Express.js', 'Node.js', 'Redis', 'RabbitMQ', 'MQTT', 'Docker', 'Jest'],
@@ -38,13 +45,6 @@ const Projects = () => {
       github: 'https://github.com/marcceljanara/Microclimate',
       external: '#'
     },
-    {
-      title: 'Tenaga Rakyat API - On Progress',
-      description: 'The Tenaga Rakyat API is a RESTful-based backend service that supports key features such as user registration and authentication, job management, application processing, TBD (payment escrow system, user-to-user messaging, two-way reviews, notifications, and administrative functions). Each endpoint is designed following the best REST standards, using compliant HTTP methods, JWT-based authentication, and JSON data format for efficient and secure communication between the frontend and backend.',
-      technologies: ['Typescript', 'Nest.js', 'Prisma', 'PostgreSQL', 'Jest'],
-      github: 'https://github.com/marcceljanara/tenaga-rakyat-api',
-      external: '#',
-    }
   ];
 
   return (

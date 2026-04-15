@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 // Header Component
 const Header = () => {
@@ -13,12 +13,16 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
-    }`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      }`}>
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
-          MJ
+        <a href="#home" className="inline-block transition-transform hover:scale-105">
+          <img 
+            src="/logo.png" 
+            alt="logo" 
+            style={{ height: '40px', width: '40px' }}
+            className="object-contain bg-white rounded-lg p-1 shadow-md" 
+          />
         </a>
         <div className="flex gap-8">
           <a href="#about" className="text-slate-300 hover:text-cyan-400 transition-colors text-sm font-medium">

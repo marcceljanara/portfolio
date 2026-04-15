@@ -6,9 +6,21 @@ const Experience = () => {
   
   const experiences = [
     {
+      company: 'PT Mitra Integrasi Informatika',
+      position: 'Internet of Thing Developer',
+      period: '16 Dec 2025 - Present',
+      responsibilities: [
+        'Created internal applications for customer companies with 100% achievement of proposals and requirement gathering and completed on time.',
+        'Responsible for helping integrate factory PLC system to web application, with reach of 10+ machines with 100+ BIT, BIN, WORD, DWORD addresses',
+        'Conduct E2E testing on web applications that have been created based on positive and negative test mechanisms and carry out documentation.',
+        'Perform troubleshooting if unexpected bugs are found and create a list of issues.'
+      ],
+      technologies: ['PTC Thingworx', 'Node Red', 'PLC', 'IoT', 'Node.js']
+    },
+    {
       company: 'Dicoding Indonesia',
       position: 'External Code Reviewer',
-      period: 'Mar 2025 - Present',
+      period: 'Mar 2025 - Mar 2026',
       responsibilities: [
         'Conducted rigorous code reviews for 50+ student submissions monthly in the Backend Developer Expert path, ensuring strict adherence to Clean Code, SOLID Principles, and OWASP security standards.',
         'Mentored students to refactor inefficient backend logic, resulting in optimized API response times and better error handling implementation in Node.js environments.',

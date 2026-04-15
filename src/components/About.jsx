@@ -3,7 +3,7 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)', 'TypeScript', 'React', 'Redis',
     'Node.js', 'Express', 'HTML & CSS', 'RabbitMQ',
-    'Git', 'GitHub Action', 'REST APIs', 'PostgreSQL', 'Docker'
+    'Git', 'GitHub Action', 'REST APIs', 'PostgreSQL', 'Docker', 'Nest.js', 'Golang'
   ];
 
   return (
