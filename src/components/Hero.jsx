@@ -1,7 +1,10 @@
 // Hero Component
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center px-6 pt-28 sm:pt-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
+    >
       <div className="max-w-4xl">
         <p className="text-cyan-400 mb-4 text-lg font-mono">Hi, my name is</p>
         <h1 className="text-6xl md:text-7xl font-bold text-slate-100 mb-4">
