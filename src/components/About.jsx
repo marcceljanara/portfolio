@@ -52,7 +52,7 @@ const About = () => {
               <div className="aspect-square bg-slate-700 flex items-center justify-center text-slate-500">
                 <div className="text-center">
                   <p className="text-sm">
-                    <img src="photo_profile2.jpeg" alt="photo_profile" srcset="" />
+                    <img src="photo_profile2.jpeg" alt="photo_profile" srcSet="" />
                   </p>
                 </div>
               </div>
