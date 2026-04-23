@@ -82,7 +82,7 @@ const Header = () => {
           </a>
 
           {/* Desktop nav links */}
-          <ul className="header-desktop-links" role="list">
+          <ul className="header-desktop-links">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>
                 <a
@@ -132,7 +132,7 @@ const Header = () => {
         aria-modal="true"
         aria-label="Mobile navigation"
       >
-        <ul className="mobile-menu-list" role="list">
+        <ul className="mobile-menu-list">
           {NAV_LINKS.map(({ href, label }, idx) => (
             <li
               key={href}
