@@ -4,9 +4,16 @@ import { ExternalLink, Folder, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Tenaga Rakyat APP - On Progress',
+      title: 'Wallet Ladger Service',
+      description: 'Backend API for a digital wallet and financial transaction system. Supports wallet management, fund transfers, double-entry ledger tracking, audit logging, and asynchronous event processing via RabbitMQ. Includes Admin endpoints for transaction monitoring and audit review.',
+      technologies: ['Golang', 'Gin', 'Wallet Service', 'Docker', 'Redis', 'RabbitMQ', 'PostgreSQL', 'Mock'],
+      github: 'https://github.com/marcceljanara/Wallet-Ledger-Service',
+      external: '#',
+    },
+    {
+      title: 'Tenaga Rakyat APP',
       description: 'The Tenaga Rakyat APP is a RESTful-based fullstack service that supports key features such as user registration and authentication, job management, application processing, TBD (payment escrow system, user-to-user messaging, two-way reviews, notifications, and administrative functions). Each endpoint is designed following the best REST standards, using compliant HTTP methods, JWT-based authentication, and JSON data format for efficient and secure communication between the frontend and backend.',
-      technologies: ['Typescript', 'Nest.js','React.js', 'Prisma', 'PostgreSQL', 'Jest'],
+      technologies: ['Typescript', 'Nest.js', 'React.js', 'Prisma', 'PostgreSQL', 'Jest'],
       github: 'https://github.com/marcceljanara/tenaga-rakyat-api',
       external: 'https://www.tenagarakyat.site/',
     },
@@ -55,33 +62,33 @@ const Projects = () => {
           Some Things I've Built
           <div className="h-px bg-slate-700 flex-1 ml-4"></div>
         </h2>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-slate-900 rounded-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-300 flex flex-col"
             >
               <div className="flex justify-between items-start mb-4">
                 <Folder className="text-cyan-400" size={40} />
                 <div className="flex gap-3">
-                  <a href={project.github} className="text-slate-400 hover:text-cyan-400 transition-colors">
+                  <a href={project.github} target='_blank' rel='noopener noreferrer' className="text-slate-400 hover:text-cyan-400 transition-colors">
                     <Github size={20} />
                   </a>
-                  <a href={project.external} className="text-slate-400 hover:text-cyan-400 transition-colors">
+                  <a href={project.external} target='_blank' rel='noopener noreferrer' className="text-slate-400 hover:text-cyan-400 transition-colors">
                     <ExternalLink size={20} />
                   </a>
                 </div>
               </div>
-              
+
               <h3 className="text-xl font-bold text-slate-100 mb-3">
                 {project.title}
               </h3>
-              
+
               <p className="text-slate-400 text-sm mb-4 flex-1">
                 {project.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, i) => (
                   <span key={i} className="text-slate-400 font-mono text-xs">
