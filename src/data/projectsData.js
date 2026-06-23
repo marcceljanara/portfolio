@@ -50,14 +50,14 @@ export const projectsData = [
     github: 'https://github.com/marcceljanara/tenaga-rakyat-api',
     external: 'https://www.tenagarakyat.site/',
     features: [
-      'User registration and JWT-based authentication',
-      'Job posting, editing, and management by employers',
-      'Job application and status tracking for workers',
-      'Payment escrow system — secure fund holding during job execution',
-      'Two-way review system after job completion',
-      'Role-based access control (Admin, Employer, Worker)',
-      'Comprehensive Admin panel for platform management',
-      'Fully tested with Jest unit and e2e tests',
+      'Authentication & Registration: Role-based access control (RBAC), JWT tokenization, Email Verifications with hashed tokens, and password resetting logic using Nodemailer.',
+      'Users & Portfolios: Profile management, CV and Avatar uploads, verification statuses, and quota limits.',
+      'Jobs: Posting, editing, and managing open vacancies, including precise geographical tagging (Latitude/Longitude integration).',
+      'Applications: Managing the lifecycle between PENDING, ACCEPTED, and REJECTED candidate requests.',
+      'Payments & Wallets: Complete financial ecosystem using Bull Queue processing and Midtrans Gateway for payouts, withdrawals, transaction histories, and platform fee tracking.',
+      'Reviews: Bidirectional rating systems (PROVIDER_TO_WORKER and WORKER_TO_PROVIDER).',
+      'Admin & User Management: Dedicated Super Admin workflows to moderate the ecosystem, ban flags, verify users manually, and manage system administrators.',
+      'Reporting: Administrative analytical exports (CSV) and dashboard statistics.',
     ],
     architecture: {
       description:
