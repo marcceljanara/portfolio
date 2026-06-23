@@ -8,7 +8,7 @@ const Experience = () => {
     {
       company: 'PT Mitra Integrasi Informatika',
       position: 'Internet of Thing Developer',
-      period: '16 Dec 2025 - Present',
+      period: '16 Dec 2025 - 15 Jun 2026',
       responsibilities: [
         'Created internal applications for customer companies with 100% achievement of proposals and requirement gathering and completed on time.',
         'Responsible for helping integrate factory PLC system to web application, with reach of 10+ machines with 100+ BIT, BIN, WORD, DWORD addresses',
