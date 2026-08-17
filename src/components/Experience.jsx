@@ -3,12 +3,22 @@ import { useState } from "react";
 // Experience Component
 const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
-  
+
   const experiences = [
+    {
+      company: 'PT Asuransi Cakrawala Proteksi Indonesia',
+      position: 'IT System Developer',
+      period: '26 Jun 2026 - Present',
+      responsibilities: [
+        'Build internal applications for company needs',
+        'Build API and system integration with 3rd party services and partners',
+      ],
+      technologies: ['ASP.NET Core', 'PHP', 'Oracle', 'System Integration']
+    },
     {
       company: 'PT Mitra Integrasi Informatika',
       position: 'Internet of Thing Developer',
-      period: '16 Dec 2025 - Present',
+      period: '16 Dec 2025 - 15 Jun 2026',
       responsibilities: [
         'Created internal applications for customer companies with 100% achievement of proposals and requirement gathering and completed on time.',
         'Responsible for helping integrate factory PLC system to web application, with reach of 10+ machines with 100+ BIT, BIN, WORD, DWORD addresses',
@@ -63,24 +73,23 @@ const Experience = () => {
           Experience
           <div className="h-px bg-slate-700 flex-1 ml-4"></div>
         </h2>
-        
+
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex md:flex-col gap-2 overflow-x-auto md:overflow-x-visible">
             {experiences.map((exp, index) => (
               <button
                 key={index}
                 onClick={() => setActiveTab(index)}
-                className={`px-6 py-3 text-left whitespace-nowrap border-l-2 transition-all ${
-                  activeTab === index
+                className={`px-6 py-3 text-left whitespace-nowrap border-l-2 transition-all ${activeTab === index
                     ? 'border-cyan-400 bg-cyan-400/10 text-cyan-400'
                     : 'border-slate-700 text-slate-400 hover:bg-slate-800'
-                }`}
+                  }`}
               >
                 {exp.company}
               </button>
             ))}
           </div>
-          
+
           <div className="flex-1">
             <h3 className="text-xl font-bold text-slate-100 mb-1">
               {experiences[activeTab].position}
@@ -89,7 +98,7 @@ const Experience = () => {
             <p className="text-slate-400 font-mono text-sm mb-6">
               {experiences[activeTab].period}
             </p>
-            
+
             <ul className="space-y-4">
               {experiences[activeTab].responsibilities.map((resp, index) => (
                 <li key={index} className="flex items-start text-slate-400">
@@ -98,7 +107,7 @@ const Experience = () => {
                 </li>
               ))}
             </ul>
-            
+
             <div className="flex flex-wrap gap-2 mt-6">
               {experiences[activeTab].technologies.map((tech, index) => (
                 <span key={index} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded text-xs font-mono">

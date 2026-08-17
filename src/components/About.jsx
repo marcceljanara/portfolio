@@ -3,7 +3,7 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)', 'TypeScript', 'React', 'Redis',
     'Node.js', 'Express', 'HTML & CSS', 'RabbitMQ',
-    'Git', 'GitHub Action', 'REST APIs', 'PostgreSQL', 'Docker', 'Nest.js', 'Golang'
+    'Git', 'GitHub Action', 'REST APIs', 'PostgreSQL', 'Docker', 'Nest.js', 'Golang', '.NET Core'
   ];
 
   return (
@@ -52,7 +52,7 @@ const About = () => {
               <div className="aspect-square bg-slate-700 flex items-center justify-center text-slate-500">
                 <div className="text-center">
                   <p className="text-sm">
-                    <img src="photo_profile2.jpeg" alt="photo_profile" srcSet="" />
+                    <img src="photo_profile.jpeg" alt="photo_profile" srcSet="" />
                   </p>
                 </div>
               </div>
