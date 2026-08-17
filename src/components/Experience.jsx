@@ -6,6 +6,16 @@ const Experience = () => {
   
   const experiences = [
     {
+      company: 'PT Asuransi Cakrawala Proteksi',
+      position: 'IT System Developer',
+      period: '26 Jun 2026 - Present',
+      responsibilities: [
+        'Build internal applications for company needs',
+        'Build API and system integration with 3rd party services and partners',
+      ],
+      technologies: ['ASP.NET Core', 'PHP', 'Oracle', 'System Integration']
+    },
+    {
       company: 'PT Mitra Integrasi Informatika',
       position: 'Internet of Thing Developer',
       period: '16 Dec 2025 - 15 Jun 2026',
